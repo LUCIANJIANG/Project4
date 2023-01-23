@@ -1,0 +1,75 @@
+.logoc {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+  height: auto;
+}
+
+.input i {
+  font-size: 1.6rem;
+}
+
+.inputForm1 {
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid black;
+  width: 17%;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+.inputForm2 {
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid black;
+  width: 10%;
+  font-size: 1.5rem;
+  background-color: transparent;
+  margin-left: 864px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+body {
+  background-color: rgba(249, 240, 223, 255);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.groceries {
+  display: grid;
+  border: 4px solid rgba(225, 215, 190, 255);
+  width: 600px;
+  min-height: 25vh;
+  margin: auto;
+  background: rgba(249, 240, 223, 255);
+  font-size: 40px;
+  font-family: cursive;
+  text-align: left;
+  color: rgb(85, 80, 80);
+  padding-top: 15px;
+}
